@@ -19,7 +19,7 @@ The GNews Collector RSS is a JavaScript-based project designed to scrape and ana
    ```
 2. Navigate to the project directory:
    ```bash
-   cd e-scooter-crash-crawler
+   cd gnews-collector-rss
    ```
 3. Install dependencies:
    ```bash
@@ -45,12 +45,12 @@ The GNews Collector RSS is a JavaScript-based project designed to scrape and ana
 2. The crawler will:
    - Search Google News for the specified terms.
    - Scrape articles and extract relevant data.
-   - Save the data to an Excel file (`escooter_crash_news.xlsx`).
+   - Save the data to an Excel file.
    - Store fingerprints in a JSON file (`fingerprints.json`).
 
 ## Output
 
-- The collected data will be saved in an Excel file (`escooter_crash_news.xlsx`) with the following columns:
+- The collected data will be saved in an Excel file with the following columns:
   - News Media Name
   - Date
   - Title of the News
@@ -86,5 +86,5 @@ The GNews Collector RSS is a JavaScript-based project designed to scrape and ana
   - XLSX: For Excel file generation.
   - Moment: For date manipulation.
 - **File Formats**:
-  - Output: Excel file (`escooter_crash_news.xlsx`)
+  - Output: Excel file
   - Fingerprints: JSON file (`fingerprints.json`)
